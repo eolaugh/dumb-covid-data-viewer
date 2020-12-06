@@ -67,7 +67,7 @@ export const Main = () => {
     if (!covidData){
         return(
         <div>
-            <p>Main</p>
+            <p>Loading...</p>
             
         </div>
         )
