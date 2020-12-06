@@ -45,7 +45,7 @@ export const Table = (props: { columns: any, data: any, country: string}) => {
       } = useTable({
         columns: memoColumns as any,
         data: countryData.data,
-        initialState: { pageSize: 25 },
+        initialState: { pageSize: 10 },
       },
       useSortBy,
       usePagination
