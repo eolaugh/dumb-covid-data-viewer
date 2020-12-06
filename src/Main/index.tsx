@@ -77,6 +77,7 @@ export const Main = () => {
     return (
         <div>
             <p>COVID Data</p>
+            <p>Data graciously provided by: <a href="https://github.com/owid/covid-19-data/tree/master/public/data/">https://github.com/owid/covid-19-data/tree/master/public/data/</a></p>
             <select name="countries" id="countries" onChange={handleChange}>
         {countries.map(country => 
       <option value={(country as any).tla}>{(country as any).location}</option>
